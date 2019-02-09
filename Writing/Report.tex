@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage{graphicx,fancyhdr,amsmath,amssymb,amsthm,subfig,url,hyperref}
+\usepackage[margin=1in]{geometry}
+\usepackage{comment}
+\usepackage{framed} 
+\usepackage{indentfirst}
+\usepackage{appendix}
+
+\usepackage{bbm}
+\usepackage{algorithmic}
+\usepackage[ruled,vlined]{algorithm2e}
+%%Algorithm2e documentation
+% http://tug.ctan.org/macros/latex/contrib/algorithm2e/doc/algorithm2e.pdf
+%\usepackage{algorithm}
+\usepackage{courier}
+
+%%%%%%
+\SetKwProg{Fn}{Function}{}{}
+%%%%%%
+%----------------------- Macros and Definitions --------------------------
+
+%%% FILL THIS OUT
+\newcommand{\studentname}{Ian Shaw}
+\newcommand{\suid}{ieshaw}
+\newcommand{\exerciseset}{Class Notes}
+%%% END
+
+%\renewcommand{\theenumi}{\bf \Alph{enumi}}
+
+%\theoremstyle{plain}
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}[theorem]{Lemma}
+
+\fancypagestyle{plain}{}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LO,RE]{\sffamily\bfseries\large NIH Portfolio Optimization}
+\fancyfoot[LO,RE]{\sffamily\bfseries\large }
+\fancyfoot[RO,LE]{\sffamily\bfseries\thepage}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\graphicspath{{figures/}}
+
+%-------------------------------- Title ----------------------------------
+
+\title{NIH Portfolio Optimization}
+\author{Tymor Hamamsy \quad Ian Shaw}
+
+%--------------------------------- Text ----------------------------------
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\include{Sections/Abstract}
+\end{abstract}
+
+
+\newpage
+
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+
+\subsection{Problem Description}
+
+\section{Literature Review}
+
+\section{Analysis}
+
+\section{Proposed Solution}
+
+\section{Future Work}
+
+\newpage
+
+\appendix
+\appendixpage
+\addappheadtotoc
+
+\section{Keep Math Here?}
+
+\bibliography{Sections/NIH_PO}
+\bibliographystyle{plain}
+
+\end{document}
+
+
+
+
+
+
