@@ -1,3 +1,9 @@
+#Project Specific
+*nih_data_ian*
+
+*.DS_Store
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
