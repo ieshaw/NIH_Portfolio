@@ -3,7 +3,7 @@
 *Writing/Output*
 *Report.s*
 *.DS_Store
-
+nih_env*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
