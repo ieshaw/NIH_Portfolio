@@ -16,3 +16,10 @@ In order to re-create this experiment, here are our steps
 6. Compare to the historical NIH allocation
 7. Show with and without dimentia effect
 8. Show with different gammas
+
+## Extending Further Invesitgation
+
+Show same plot with two tweaks.
+
+1. Use all the buckets we have (~78) vs. the 9 Lo et. al used
+2. Do the same analysis with DALYs. Then plot the two efficient frontiers (DALY vs. YLL) and see if they are different
