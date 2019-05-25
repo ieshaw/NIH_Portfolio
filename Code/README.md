@@ -8,7 +8,7 @@ They showed the efficient fronteir (portfolio optimization) [Figure 4, page 6] o
 
 In order to re-create this experiment, here are our steps
 
-1. Auto-regress funding with YLL to find the lag for each group (choose strongest R^2)
+1. Auto-regress funding changes with YLL changes to find the lag for each group (choose strongest R^2)
 2. Find the correlation of these lagged YLL's
 3. Establish the mean ROI for each bucket
 4. Calculate Covariance Matrix
