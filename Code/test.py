@@ -7,7 +7,22 @@ from noptimal import noptimal
 class Test_noptimal_class(unittest.TestCase):
 
         def setUp(self):
-            self.daly_df = pd.DataFrame({1:1})
+            a_list = [['A', 2010, 1, 1],
+                       ['A', 2011, 2, 1], 
+                       ['A', 2012, 3, 2],
+                       ['A', 2013, 4, 3],
+                       ['A', 2014, 5, 4]]
+            b_list = [['B', 2010, 1, 1],
+                       ['B', 2011, 2, 1], 
+                       ['B', 2012, 3, 1],
+                       ['B', 2013, 4, 2],
+                       ['B', 2014, 5, 3]]
+            entry_lists = [a_list, b_list]
+            entries = []
+            for entry_list in entry_lists:
+                entries.extend(entry_list)
+            df_cols = ['disease', 'year', 'funding', 'rate']
+            self.daly_df = pd.DataFrame(entries, index=None, columns=df_cols)
             self.test_noptimal = noptimal(self.daly_df)
 
         '''
